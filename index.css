@@ -1,0 +1,183 @@
+
+.navbar {
+  text-align: center;
+}
+.nav{
+  text-align: center;
+}
+   
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: gold;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .navbar a:hover{
+background-color: gold
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: gold;
+    color: black;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(42, 65, 42);
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  /* Add your preferred button styles here */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add animation keyframes for shaking effect */
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-5px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(5px);
+  }
+}
+
+/* Apply the animation to the button when the class is added */
+.shake-animation {
+  animation: shake 3s ease-out infinite;
+}
+.btn {
+  border-radius: 20px;
+}
+  
+  .dropdown-content a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.down{
+float: left;
+overflow: hidden;
+}
+.down .downbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: gold;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+ .down:hover .downbtn{
+  background-color:gold;
+  color: black;
+}
+.down:hover .down-content {
+  display: block;
+  color: white;
+}
+
+.down-content{
+  display: none;
+  position: absolute;
+  background-color: rgb(42, 65, 42);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+.down-content a {
+  float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left
+}
+    
+
+
+
+.container-fluid{
+    color: gold;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:   sans-serif;
+    font-display: 10px;
+    position: fixed;
+    left: 0px;
+    padding-left: 20px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('emmanuel.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    background-color: black;
+    opacity: 0.7;
+  
+
+}
+
+
+
+.footer2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+}
